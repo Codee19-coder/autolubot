@@ -199,7 +199,7 @@ app.post('/login', async (req, res) => {
 				console.log(`User ${cUser.value} is already logged in`);
 				return res.status(400).json({
 					error: false,
-					message: "Active user session detected; already logged in",
+					message: "Already Login Na Bai!",
 					user: existingUser
 				});
 			} else {
@@ -207,7 +207,7 @@ app.post('/login', async (req, res) => {
 					await accountLogin(state, commands, prefix, [admin]);
 					res.status(200).json({
 						success: true,
-						message: 'Authentication process completed successfully; login achieved.'
+						message: 'Congratss Baii.'
 					});
 				} catch (error) {
 					console.error(error);
@@ -419,7 +419,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 				fs.writeFileSync(gifPath, response.data); 
 				return api.sendMessage("𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗡𝗚...", event.threadID, () => 
 						api.sendMessage({ 
-								body:`🔴🟢🟡\n\n✅ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦! \n➭ Bot Prefix: ${prefix}\n➭ Admin: ‹𝙲𝚑𝚞𝚛𝚌𝚑𝚒𝚕𝚕 𝙰𝚋𝚒𝚗𝚐›\n➭ Facebook: ‹https://www.facebook.com/${admin}›\n➭ Use ${prefix}help to view command details\n➭ Added bot at: ⟨ ${time} ⟩〈 ${thu} 〉`, 
+								body:`🔴🟢🟡\n\n✅ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦! \n➭ Bot Prefix: ${prefix}\n➭ Admin: ‹𝙺𝙴𝙽𝙽𝙴𝚃𝙷𝙲𝙰𝙻𝙸𝙱𝙾›\n➭ Facebook: ‹https://www.facebook.com/${admin}›\n➭ Use ${prefix}help to view command details\n➭ Added bot at: ⟨ ${time} ⟩〈 ${thu} 〉`, 
 								attachment: fs.createReadStream(gifPath)
 						}, event.threadID)
 				);
@@ -667,7 +667,7 @@ const yawa = lubot[Math.floor(Math.random() * lubot.length)];
 
 																		console.log(`Sending message with file "${fileName}"...`);
 																		// Use the fs.promises version for file reading
-																		await api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖽𝗈𝗐𝗇 𝖦𝗈𝗈𝗀𝗅𝖾 𝖣𝗋𝗂𝗏𝖾 𝖫𝗂𝗇𝗄 \n\n𝙵𝙸𝙻𝙴𝙽𝙰𝙼𝙴: ${fileName}\n\n𝙲𝙷𝙸𝙻𝙻𝙸`, attachment: fs.createReadStream(destPath) }, event.threadID);
+																		await api.sendMessage({ body: `𝖠𝗎𝗍𝗈 𝖽𝗈𝗐𝗇 𝖦𝗈𝗈𝗀𝗅𝖾 𝖣𝗋𝗂𝗏𝖾 𝖫𝗂𝗇𝗄 \n\n𝙵𝙸𝙻𝙴𝙽𝙰𝙼𝙴: ${fileName}\n\n𝙲𝚊𝚕𝚒𝚋𝚘`, attachment: fs.createReadStream(destPath) }, event.threadID);
 
 																		console.log(`Deleting file "${fileName}"...`);
 																		await fs.promises.unlink(destPath);
