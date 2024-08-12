@@ -14,7 +14,7 @@ module.exports.config = {
 
 module.exports.run = async function ({ api, event }) {
     try {
-        api.sendMessage("Fetching a random hentai video, please wait...", event.threadID, async (chilli, kalamansi) => {
+        api.sendMessage("Hintay Manyakol...", event.threadID, async (chilli, kalamansi) => {
             if (chilli) {
                 console.error("Error sending initial message:", chilli);
                 return api.sendMessage("An error occurred while processing your request.", event.threadID);
