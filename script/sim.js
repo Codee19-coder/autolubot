@@ -1,10 +1,10 @@
 module.exports.config = {
-		name: "sim",
+		name: "ken",
 		version: "1.0.0",
 		role: 0,
-		aliases: ["Sim"],
+		aliases: ["ken"],
 		credits: "jerome",
-		description: "Talk to sim",
+		description: "Talk to Ken",
 		cooldown: 0,
 		hasPrefix: false
 };
@@ -15,7 +15,7 @@ module.exports.run = async function({ api, event, args }) {
 		let tid = threadID,
 				mid = messageID;
 		const content = encodeURIComponent(args.join(" "));
-		if (!args[0]) return api.sendMessage("Please type a message...", tid, mid);
+		if (!args[0]) return api.sendMessage("Tanungin Mo si Ken...", tid, mid);
 		try {
 				const res = await axios.get(`https://simsimi-api-pro.onrender.com/sim?query=${content}`);
 				const respond = res.data.respond;
