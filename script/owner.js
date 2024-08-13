@@ -84,9 +84,9 @@ module.exports.run = async function({ api, event, args, prefix, admin }) {
 				api.sendMessage({
 						body: `➢ Admin and Bot Information
 
-⁂ Bot Name: 𝐀𝐮𝐭𝐨𝐛𝐨𝐭𝐛𝐲𝐜𝐡𝐮𝐫𝐜𝐡𝐢𝐥𝐥
-✧ Bot Admin: 𝒄𝒉𝒖𝒓𝒄𝒉𝒊𝒍𝒍 𝒂𝒃𝒊𝒏𝒈
-♛ Bot Admin Link: https://www.facebook.com/Churchill.Dev4100
+⁂ Bot Name: 𝙰𝚄𝚃𝙾𝙱𝙾𝚃𝙱𝚈𝙺𝙴𝙽𝙽𝙴𝚃𝙷
+✧ Bot Admin: 𝐊𝐄𝐍𝐍𝐄𝐓𝐇 𝐂𝐀𝐋𝐈𝐁𝐎
+♛ Bot Admin Link: https://www.facebook.com/profile.php?id=61562173151589
 ❂ Bot Prefix: ${prefix}
 ✫ Files Owner: ${FILESOWNER}
 ➟ UPTIME ${uptimeString}
