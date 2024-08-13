@@ -2,7 +2,7 @@ module.exports.config = {
 		name: "ken",
 		version: "1.0.0",
 		role: 0,
-		aliases: ["ken"],
+		aliases: ["kenneth"],
 		credits: "jerome",
 		description: "Talk to Ken",
 		cooldown: 0,
