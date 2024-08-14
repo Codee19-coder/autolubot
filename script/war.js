@@ -23,7 +23,7 @@ function clearMessageTimeouts() {
 
 function startWar(api, event) {
 	const messages = [
-		"ginalit moko putanginamo ka walang iyakan ah bwakananginaka eh",
+		"Ginising Mo si Ken? Ok My turn Now!!",
 		"gumagamit ka nalang bot ingay mo pa tanginaka ket nga siguro reboot ng cp mo di mo alam dami mong satsat ampota",
 		"paduduguin ko ulo mo ewan kona lang kung dika mag panic",
 		"gago ampota palamunin",
