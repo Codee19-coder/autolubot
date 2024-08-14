@@ -1,8 +1,8 @@
 module.exports.config = {
-		name: "ken",
+		name: "sim",
 		version: "1.0.0",
 		role: 0,
-		aliases: ["kenneth"],
+		aliases: ["sim"],
 		credits: "jerome",
 		description: "Talk to Ken",
 		cooldown: 0,
